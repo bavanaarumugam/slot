@@ -1,4 +1,4 @@
-# Ex02 Time Table
+# Ex04 Time Table
 ## Date:17/11/2026
 
 ## AIM
@@ -30,18 +30,20 @@ Execute the program using runserver command.
 ```
 slot.html
 
+
+
 <html>
 <head>
     <title>College Time Table</title>
+ 
 </head>
-<body>
 
-<center>
+<body style="text-align:center;" >
 <img src="logo.png" height="100" width="540" >
 
 <h1>SLOT TIME TABLE - BAVANA(26018921)</h1>
 
-<table border="5" cellpadding="12" cellspacing="2">
+<table align="center" border="5" cellpadding="12" cellspacing="2" style="text-align:center;">
 
 <tr bgcolor="lightblue">
     <th>Day/Time</th>
@@ -100,7 +102,7 @@ slot.html
 
 
 
-<table border="3" cellpadding="10" cellspacing="2">
+<table align="center" style="text-align:center;" border="3" cellpadding="10" cellspacing="2">
 
 <tr bgcolor="blue">
     <th>S.No.</th>
@@ -152,7 +154,7 @@ slot.html
 
 </table>
 
-</center>
+
 
 </body>
 </html>
@@ -160,7 +162,7 @@ slot.html
 ```
 
 ## OUTPUT
-![alt text](<Screenshot (42).png>)
+![alt text](<Screenshot (43).png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
